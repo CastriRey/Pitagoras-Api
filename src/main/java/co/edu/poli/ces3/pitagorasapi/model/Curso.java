@@ -116,4 +116,20 @@ public class Curso {
     public void setFechaInicio(String fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", codigo='" + codigo + '\'' +
+                ", profesor='" + profesor + '\'' +
+                ", cupoMaximo=" + cupoMaximo +
+                ", estudiantesInscritos=" + estudiantesInscritos +
+                ", facultad='" + facultad + '\'' +
+                ", prerequisitos=" + prerequisitos +
+                ", nivel=" + nivel +
+                ", fechaInicio='" + fechaInicio + '\'' +
+                '}';
+    }
 }
