@@ -40,7 +40,7 @@ public class CursoDAO {
                 "Ciencias Básicas", 2, "2023-03-20");
         agregarCurso(curso2);
 
-        Curso curso3 = new Curso(nextId++, "Estructuras de Datos", "PROG202", "Dr. Williams", 20,
+        Curso curso3 = new Curso(nextId++, "Estructuras de Datos", "ESDA202", "Dr. Williams", 20,
                 "Ingeniería", 2, "2023-04-10");
         curso3.addPrerequisito("PROG101");
         agregarCurso(curso3);
